@@ -53,11 +53,11 @@ export default {
     return {
       card: {
         title: '',
-        chipSrc: '',
+        chipSrc: '/chip.png', // Ruta predeterminada a la imagen chip.png
         number: '',
         expiryDate: '',
         owner: '',
-        typeSrc: '',
+        typeSrc: '/visa.png', // Ruta predeterminada a la imagen visa.png
       },
     };
   },
